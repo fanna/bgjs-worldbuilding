@@ -10,3 +10,40 @@ sand = {'fg': libtcod.Color(244, 210, 156), 'bg': libtcod.Color(254, 243, 192)}
 deep_sea = {'fg': libtcod.Color(20, 52, 100), 'bg': libtcod.Color(40, 92, 196)}
 
 palette = [tree, sea, dirt, mountain, high_mountain, grass, sand, deep_sea]
+
+book = """      ,   ,
+
+     /////|
+
+    ///// |
+
+   |~~~|  |
+
+   |===|  |
+
+   |M  |  |
+
+   | A |  |
+
+   |  G| /
+
+   |===|/
+
+   '---'"""
+
+compass = """
+      N
+
+      |
+
+      |
+
+     =|=
+ W----o----E
+     =|=
+
+      |
+
+      |
+
+      S"""
