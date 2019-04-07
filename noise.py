@@ -13,8 +13,8 @@ def create_noise():
             seed=None,
             )
 
-    ogrid = [np.arange(30, dtype=np.float32),
-            np.arange(30, dtype=np.float32)]
+    ogrid = [np.arange(64, dtype=np.float32),
+            np.arange(64, dtype=np.float32)]
     print(ogrid)
 
     ogrid[0] *= 0.25
